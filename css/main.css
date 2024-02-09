@@ -1,0 +1,48 @@
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;;
+    color: azure;}
+
+.container {
+    background-color: grey;
+    background-image: url(testbg.jpg) ;
+    background-size: 2100px;
+    background-position: top left;
+    padding: 100px;
+    object-fit: cover;
+
+}
+.name {font-size: 48px; 
+    text-transform: uppercase;}
+
+.role {font-size: 24px; 
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 210px;
+    height: 210px;
+    margin-bottom: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 10px 10px 0px 0px;
+}
+
+.paragraph2 {
+    margin-bottom: 20px;
+}
+
+.content {
+    width: 400px;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    padding: 12px 24px 12px 24px ;
+}
+
+#call {
+    margin-bottom: 40px;
+}
